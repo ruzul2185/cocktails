@@ -6,6 +6,7 @@ import Cocktails from "./components/Cocktails";
 import About from "./components/About";
 import Art from "./components/Art";
 import Menu from "./components/Menu";
+import Contact from "./components/Contact";
 
 // Regitering plugins in App file make them accessable globally
 gsap.registerPlugin(ScrollTrigger, SplitText);
@@ -19,6 +20,7 @@ const App = () => {
       <About />
       <Art />
       <Menu />
+      <Contact />
     </main>
   );
 };
