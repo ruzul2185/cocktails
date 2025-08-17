@@ -72,12 +72,14 @@ const Hero = () => {
         <h1 className="title">MOJITO</h1>
 
         <img
-          src="/images/hero-left-leaf.png"
+          // src="/images/hero-left-leaf.png"
+          src="https://res.cloudinary.com/dvl1ejzlg/image/upload/v1755427429/hero-left-leaf_y0glqs.png"
           alt="left-leaf"
           className="left-leaf"
         />
         <img
-          src="/images/hero-right-leaf.png"
+          // src="/images/hero-right-leaf.png"
+          src="https://res.cloudinary.com/dvl1ejzlg/image/upload/v1755427434/hero-right-leaf_it7wfk.png"
           alt="right-leaf"
           className="right-leaf"
         />

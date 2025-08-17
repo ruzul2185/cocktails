@@ -4,7 +4,9 @@
 
 @font-face {
   font-family: "Modern Negra";
-  src: url("/fonts/Modern Negra Demo.ttf") format("truetype");
+  /* src: url("/fonts/Modern Negra Demo.ttf") format("truetype"); */
+  src: url("https://res.cloudinary.com/dvl1ejzlg/raw/upload/v1755428416/Modern_Negra_Demo_s1ymrc.ttf")
+    format("truetype");
 }
 
 @theme {
@@ -53,7 +55,7 @@ body {
 }
 
 @utility masked-img {
-  mask-image: url("/images/mask-img.png");
+  mask-image: url("https://res.cloudinary.com/dvl1ejzlg/image/upload/v1755427437/mask-img_r07hpx.png");
   mask-repeat: no-repeat;
   mask-position: center;
   mask-size: 50%;
@@ -85,7 +87,7 @@ body {
   }
 
   .noisy {
-    @apply absolute inset-0 size-full bg-[url("/images/noise.png")];
+    @apply absolute inset-0 size-full bg-[url("https://res.cloudinary.com/dvl1ejzlg/image/upload/v1755427459/noise_oknx5r.png")];
   }
 
   #hero {

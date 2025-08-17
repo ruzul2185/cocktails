@@ -47,12 +47,14 @@ const Menu = () => {
   return (
     <section id="menu" aria-labelledby="menu-heading">
       <img
-        src="/images/slider-left-leaf.png"
+        // src="/images/slider-left-leaf.png"
+        src="https://res.cloudinary.com/dvl1ejzlg/image/upload/v1755427447/slider-left-leaf_dp082e.png"
         alt="left-leaf"
         id="m-left-leaf"
       />
       <img
-        src="/images/slider-right-leaf.png"
+        // src="/images/slider-right-leaf.png"
+        src="https://res.cloudinary.com/dvl1ejzlg/image/upload/v1755427447/slider-right-leaf_bxlqr6.png"
         alt="right-leaf"
         id="m-right-leaf"
       />
@@ -88,7 +90,8 @@ const Menu = () => {
           >
             <span>{prevCocktail.name}</span>
             <img
-              src="/images/right-arrow.png"
+              // src="/images/right-arrow.png"
+              src="https://res.cloudinary.com/dvl1ejzlg/image/upload/v1755427447/slider-right-leaf_bxlqr6.png"
               alt="right-arrow"
               aria-hidden="true"
             />
@@ -99,7 +102,8 @@ const Menu = () => {
           >
             <span>{nextCocktail.name}</span>
             <img
-              src="/images/left-arrow.png"
+              // src="/images/left-arrow.png"
+              src="https://res.cloudinary.com/dvl1ejzlg/image/upload/v1755427433/left-arrow_isf75t.png"
               alt="left-arrow"
               aria-hidden="true"
             />

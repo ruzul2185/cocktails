@@ -27,12 +27,14 @@ const Cocktails = () => {
   return (
     <section id="cocktails" className="noisy">
       <img
-        src="/images/cocktail-left-leaf.png"
+        // src="/images/cocktail-left-leaf.png"
+        src="https://res.cloudinary.com/dvl1ejzlg/image/upload/v1755427422/cocktail-left-leaf_ppvqvb.png"
         alt="left-leaf"
         id="c-left-leaf"
       />
       <img
-        src="/images/cocktail-right-leaf.png"
+        // src="/images/cocktail-right-leaf.png"
+        src="https://res.cloudinary.com/dvl1ejzlg/image/upload/v1755427422/cocktail-right-leaf_l34qlu.png"
         alt="right-leaf"
         id="c-right-leaf"
       />

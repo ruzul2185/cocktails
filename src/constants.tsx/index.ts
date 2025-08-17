@@ -73,16 +73,24 @@ const mockTailLists = [
 
 const profileLists = [
   {
-    imgPath: "/images/profile1.png",
+    // imgPath: "/images/profile1.png",
+    imgPath:
+      "https://res.cloudinary.com/dvl1ejzlg/image/upload/v1755427439/profile1_xlk5af.png",
   },
   {
-    imgPath: "/images/profile2.png",
+    // imgPath: "/images/profile2.png",
+    imgPath:
+      "https://res.cloudinary.com/dvl1ejzlg/image/upload/v1755427439/profile2_pbefll.png",
   },
   {
-    imgPath: "/images/profile3.png",
+    // imgPath: "/images/profile3.png",
+    imgPath:
+      "https://res.cloudinary.com/dvl1ejzlg/image/upload/v1755427439/profile3_q3hpwj.png",
   },
   {
-    imgPath: "/images/profile4.png",
+    // imgPath: "/images/profile4.png",
+    imgPath:
+      "https://res.cloudinary.com/dvl1ejzlg/image/upload/v1755427441/profile4_llj2qk.png",
   },
 ];
 
@@ -119,17 +127,20 @@ const openingHours = [
 const socials = [
   {
     name: "Instagram",
-    icon: "/images/insta.png",
+    // icon: "/images/insta.png",
+    icon: "https://res.cloudinary.com/dvl1ejzlg/image/upload/v1755427432/insta_bxrgg0.png",
     url: "#",
   },
   {
     name: "X (Twitter)",
-    icon: "/images/x.png",
+    // icon: "/images/x.png",
+    icon: "https://res.cloudinary.com/dvl1ejzlg/image/upload/v1755427449/x_hscbwl.png",
     url: "#",
   },
   {
     name: "Facebook",
-    icon: "/images/fb.png",
+    // icon: "/images/fb.png",
+    icon: "https://res.cloudinary.com/dvl1ejzlg/image/upload/v1755427423/fb_l9s0fh.png",
     url: "#",
   },
 ];
@@ -138,7 +149,9 @@ const sliderLists = [
   {
     id: 1,
     name: "Classic Mojito",
-    image: "/images/drink1.png",
+    // image: "/images/drink1.png",
+    image:
+      "https://res.cloudinary.com/dvl1ejzlg/image/upload/v1755427419/drink1_glaj8m.png",
     title: "Simple Ingredients, Bold Flavor",
     description:
       "Made with tequila, lime juice, and orange liqueur, the Margarita is easy to make and full of character. Add a salted rim for the perfect drink on summer nights.",
@@ -146,7 +159,9 @@ const sliderLists = [
   {
     id: 2,
     name: "Raspberry Mojito",
-    image: "/images/drink2.png",
+    // image: "/images/drink2.png",
+    image:
+      "https://res.cloudinary.com/dvl1ejzlg/image/upload/v1755427419/drink2_emy3is.png",
     title: "A Zesty Classic That Never Fails",
     description:
       "The Margarita is a classic that balances tangy lime, smooth tequila, and a touch of sweetness. Shaken, frozen, or on the rocks—it's always crisp & refreshing.",
@@ -154,7 +169,9 @@ const sliderLists = [
   {
     id: 3,
     name: "Violet Breeze",
-    image: "/images/drink3.png",
+    // image: "/images/drink3.png",
+    image:
+      "https://res.cloudinary.com/dvl1ejzlg/image/upload/v1755427419/drink2_emy3is.png",
     title: "Simple Ingredients, Bold Flavor",
     description:
       "Made with tequila, lime juice, and orange liqueur, the Margarita is easy to make and full of character. Add a salted rim for the perfect drink on summer nights.",
@@ -162,7 +179,9 @@ const sliderLists = [
   {
     id: 4,
     name: "Curacao Mojito",
-    image: "/images/drink4.png",
+    // image: "/images/drink4.png",
+    image:
+      "https://res.cloudinary.com/dvl1ejzlg/image/upload/v1755427420/drink4_pbvel6.png",
     title: "Crafted With Care, Poured With Love",
     description:
       "Each cocktail is made with fresh ingredients and a passion for perfecting every pour, whether you're celebrating or simply relaxing.",
